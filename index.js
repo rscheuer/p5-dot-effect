@@ -20,7 +20,7 @@ function preload() {
 function setup() {
   let c = createCanvas(w, h);
   pixelDensity(1);
-  slider = createSlider(0,100,16);
+  slider = createSlider(0,101,16);
   pixelSlider = createSlider(10,100,16);
   // noLoop();
   fileInput = createFileInput(handleFile);
